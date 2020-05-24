@@ -1,0 +1,5 @@
+.Footer {
+	flex: display;
+	flex-direction: row;
+	background-color: red;
+}
