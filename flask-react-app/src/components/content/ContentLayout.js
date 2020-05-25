@@ -6,7 +6,6 @@ function ContentLayout() {
 
   return (
     <div className="ContentLayout">
-	    <h1> ContentLayout</h1>
 	    <Content />
 	    <ContentNav />
     </div>

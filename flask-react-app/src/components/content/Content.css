@@ -1,6 +1,7 @@
 .Content {
 	display: flex;
-	flex-direction: column;;
-	background-color: purple;
-
+	flex-direction: column;
+	background-color: black;
+	width: 90%;
+	padding: 10px;
 }
