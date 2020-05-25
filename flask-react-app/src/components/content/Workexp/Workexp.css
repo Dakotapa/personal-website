@@ -1,0 +1,43 @@
+.Workexp {
+	background-color: white;
+	padding: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.Linquest {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.Linquest > img {
+	width: 15%;
+	height: 45%;
+	margin-right: 40px;
+	-webkit-transform: rotate(0deg);
+	background-color: white;
+}
+
+.LinquestDescription{
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+
+}
+
+.JPL {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.JPL > img {
+	width: 15%;
+	height: 37%;
+	margin-right: 40px;
+	-webkit-transform: rotate(0deg);
+	background-color: white;
+}
+
+.JPLDescription {
+	padding-top: 15px;
+}
