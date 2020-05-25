@@ -1,34 +1,64 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './ContentNav.css'
 
 import ListGroup from 'react-bootstrap/ListGroup'
 
-function ContentNav() {
+class ContentNav extends Component {
+	constructor(props) {
+		super(props);
+		this.handleChange = this.handleChange.bind(this);
+	}
 
-  return (
-  	<div className="ContentNav">
- 		<ListGroup defaultActiveKey="#link1">
- 			<ListGroup.Item action href="#link1">
- 				About Me
- 			</ListGroup.Item>
- 			<ListGroup.Item action href="#link2">
- 				Work Experience
- 			</ListGroup.Item>
- 			<ListGroup.Item action href="#link3">
- 				Education
- 			</ListGroup.Item>
- 			<ListGroup.Item action href="#link4">
- 				Relevant Coursework
- 			</ListGroup.Item>
- 			<ListGroup.Item action href="#link5">
- 				Projects
- 			</ListGroup.Item>
- 			<ListGroup.Item action href="#link6">
- 				Contact Me
- 			</ListGroup.Item>
- 		</ListGroup>
-  	</div>
-  );
+	handleChange(e) {
+		this.props.onContentNavChange(e);
+	}
+
+	render() {
+		return (
+	  	<div className="ContentNav">
+	 		<ListGroup defaultActiveKey="#link1">
+
+	 			<ListGroup.Item action href="#link1"
+	 			onClick={() => this.handleChange("showAbout")}
+	 			>
+	 				About Me
+	 			</ListGroup.Item>
+
+	 			<ListGroup.Item action href="#link2"
+				onClick={() => this.handleChange("showWorkexp")}
+	 			>
+	 				Work Experience
+	 			</ListGroup.Item>
+
+	 			<ListGroup.Item action href="#link3"
+	 			onClick={() => this.handleChange("showEducation")}
+	 			>
+	 				Education
+	 			</ListGroup.Item>
+
+	 			<ListGroup.Item action href="#link4"
+	 			onClick={() => this.handleChange("showCoursework")}
+	 			>
+	 				Relevant Coursework
+	 			</ListGroup.Item>
+
+	 			<ListGroup.Item action href="#link5"
+	 			onClick={() => this.handleChange("showProjects")}
+	 			>
+	 				Projects
+	 			</ListGroup.Item>
+
+	 			<ListGroup.Item action href="#link6"
+	 			onClick={() => this.handleChange("showContact")}
+	 			>
+	 				Contact Me
+	 			</ListGroup.Item>
+
+	 		</ListGroup>
+	  	</div>
+	  );		
+	}
+  
 }
 
 export default ContentNav;

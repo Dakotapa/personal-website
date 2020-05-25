@@ -1,5 +1,6 @@
 .ContentLayout {
 	min-height: 100vh;
+	min-width: 100vh;
 	display: flex;
 	flex-direction: row;
 	background-color: green;

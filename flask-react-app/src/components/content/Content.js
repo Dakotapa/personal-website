@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './Content.css'
 
@@ -11,18 +11,23 @@ import Education from './Education/Education.js'
 import Projects from './Projects/Projects.js'
 import Workexp from './Workexp/Workexp.js'
 
-function Content() {
-
-  return (
-  	<div className="Content">
-  		< About />
-  		< Workexp />
-  		< Education />
-  		< Coursework />
-  		< Projects />
-  		< Contact />
-  	</div>
+export default class Content extends Component {
+	constructor(props) {
+		super(props);
+	}
+	
+	render() {
+		const {showAbout, showWorkexp, showEducation, showCoursework,
+			   showProjects, showContact } = this.props;
+		return (
+		  	<div className="Content">
+		  		{ showAbout && < About /> }
+		  		{ showWorkexp && < Workexp /> }
+		  		{ showEducation && < Education /> }
+		  		{ showCoursework && < Coursework /> }
+		  		{ showProjects && < Projects /> }
+		  		{ showContact && < Contact /> }
+		  	</div>
   );
+	}
 }
-
-export default Content;

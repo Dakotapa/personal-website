@@ -5,7 +5,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 function Projects() {
 
   return (
-  	<div className="Content">
+  	<div className="Projects">
     		<Jumbotron fluid>
     			<h1> Projects  </h1>
     			<p>
@@ -13,14 +13,14 @@ function Projects() {
     				Content information goes here Content information goes here
     				Content information goes here Content information goes here
     				Content information goes here Content information goes here
-            Content information goes here Content information goes here
-            Content information goes here Content information goes here
-            Content information goes here Content information goes here
-            Content information goes here Content information goes here
-            Content information goes here Content information goes here
-            Content information goes here Content information goes here
-            Content information goes here Content information goes here
-            Content information goes here Content information goes here
+                    Content information goes here Content information goes here
+                    Content information goes here Content information goes here
+                    Content information goes here Content information goes here
+                    Content information goes here Content information goes here
+                    Content information goes here Content information goes here
+                    Content information goes here Content information goes here
+                    Content information goes here Content information goes here
+                    Content information goes here Content information goes here
     			</p> 
     		</Jumbotron>
   	</div>
