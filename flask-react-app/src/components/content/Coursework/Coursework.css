@@ -1,0 +1,8 @@
+.Coursework {
+	width: 50%;
+	margin-top: 5%;
+}
+
+.Coursework > h1 {
+	text-align: center;
+}

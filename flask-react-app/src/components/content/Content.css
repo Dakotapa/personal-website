@@ -1,9 +1,8 @@
-.Content {
-	display: flex;
-	flex-direction: column;
-	background-color: black;
-	width: 90%;
-	padding: 40px;
-	padding-top: 90px;
+.contentParent {
+}
 
+.contentParent > div{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 }

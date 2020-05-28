@@ -1,2 +1,21 @@
-.Header {
+#git {
+	overflow: hidden;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-top: -6%;
+}
+#linkedin {
+	overflow: hidden;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-top: -6%;
+}
+#instapic {
+	overflow: hidden;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-top: -6%;
 }

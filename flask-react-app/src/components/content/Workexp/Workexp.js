@@ -1,16 +1,14 @@
 import React from 'react';
 import './Workexp.css'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-
 import Linquest from '../../../pictures/linquest.jpeg'
 import JPL from '../../../pictures/jpl.png'
 
 function Workexp() {
 
   return (
-  	<div className="Workexp">
+  	<div className="Workexp" id="experience">
 
-    	<h2> Work Experience </h2> <br/>
+    	<h1> Work Experience </h1> <br/>
         <div className="Linquest">
 
             <img src={Linquest} alt="Linquest logo"/>
@@ -48,7 +46,7 @@ function Workexp() {
             <h5> Achievements: </h5>
             <ul>
                 <li> C++ Programming of a rover which simulates all phases of a flight 
-                program for a MARS exploration rover that conducts a sample return, emergency
+                program for a MARS exploration rover that conducts a sample return, <br/>emergency
                 assist of other rovers, and accomplishes science objectives as well as 
                 habitable exploration documentary.</li>
                 <li> Held position of team that helped coordinate maneuverability functionalities

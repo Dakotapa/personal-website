@@ -1,9 +1,15 @@
 .Workexp {
 	background-color: white;
-	padding: 15px;
-	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10%;
+}
+
+.Workexp > h1 {
+	text-align: center;
+	margin-bottom: 2%;
 }
 
 .Linquest {
@@ -14,14 +20,17 @@
 .Linquest > img {
 	width: 15%;
 	height: 45%;
-	margin-right: 40px;
+	margin-right: 5%;
+	margin-bottom: 5%;
 	-webkit-transform: rotate(0deg);
 	background-color: white;
+
 }
 
 .LinquestDescription{
 	border-bottom: 1px solid black;
 	padding-bottom: 5px;
+	margin-bottom: 2%;
 
 }
 
@@ -33,11 +42,12 @@
 .JPL > img {
 	width: 15%;
 	height: 37%;
-	margin-right: 40px;
+	margin-right: 5%;
 	-webkit-transform: rotate(0deg);
 	background-color: white;
 }
 
 .JPLDescription {
-	padding-top: 15px;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
 }

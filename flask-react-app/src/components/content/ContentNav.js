@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './ContentNav.css'
 
+
 import ListGroup from 'react-bootstrap/ListGroup'
 
 class ContentNav extends Component {
@@ -13,49 +14,32 @@ class ContentNav extends Component {
 		this.props.onContentNavChange(e);
 	}
 
+	scrollTo(name){
+		window.location.hash(name);
+	}
 	render() {
 		return (
-	  	<div className="ContentNav">
 	 		<ListGroup defaultActiveKey="#link1">
-
-	 			<ListGroup.Item action href="#link1"
-	 			onClick={() => this.handleChange("showAbout")}
-	 			>
+	 			<ListGroup.Item action href="#layout">
 	 				About Me
 	 			</ListGroup.Item>
-
-	 			<ListGroup.Item action href="#link2"
-				onClick={() => this.handleChange("showWorkexp")}
-	 			>
+	 			<ListGroup.Item action href="#experience">
 	 				Work Experience
 	 			</ListGroup.Item>
-
-	 			<ListGroup.Item action href="#link3"
-	 			onClick={() => this.handleChange("showEducation")}
-	 			>
+	 			<ListGroup.Item action href="#education">
 	 				Education
 	 			</ListGroup.Item>
-
-	 			<ListGroup.Item action href="#link4"
-	 			onClick={() => this.handleChange("showCoursework")}
-	 			>
+	 			<ListGroup.Item action href="#coursework">
 	 				Relevant Coursework
 	 			</ListGroup.Item>
-
-	 			<ListGroup.Item action href="#link5"
-	 			onClick={() => this.handleChange("showProjects")}
-	 			>
+	 			<ListGroup.Item action href="#projects">
 	 				Projects
 	 			</ListGroup.Item>
-
-	 			<ListGroup.Item action href="#link6"
-	 			onClick={() => this.handleChange("showContact")}
-	 			>
+	 			<ListGroup.Item action href="#contact">
 	 				Contact Me
 	 			</ListGroup.Item>
-
 	 		</ListGroup>
-	  	</div>
+	  	
 	  );		
 	}
   

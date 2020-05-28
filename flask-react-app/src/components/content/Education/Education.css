@@ -1,0 +1,37 @@
+.education {
+	margin-top: 10%;
+}
+
+.education > h1 {
+	text-align: center;
+}
+.USC {
+	display: flex;
+	flex-direction: row;
+}
+
+.USC > img {
+	height: 100%;
+	width: 50%;
+}
+
+.USCDescription {
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.LAHC {
+	display: flex;
+	flex-direction: row;
+	margin-left: 25%;
+}
+
+.LAHC > img {
+	height: 100%;
+	width: 27%;
+}
+
+.LAHCDescription {
+	margin-top: 3%;
+	margin-left: 5%;
+}
