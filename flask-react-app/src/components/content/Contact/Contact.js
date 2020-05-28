@@ -1,35 +1,7 @@
 import React, { Component } from 'react';
 import './Contact.css'
-import $ from 'jquery'
 
-
-
-export default class Contact extends Component {
-  
-  
-  constructor(props){
-    super(props);
-    this.state = {
-      
-    };
-  }
-  componentDidMount(){/*
-    const script = document.createElement("script");
-
-    script.innerHTML = "console.log('TEST');" +
-    "const div = document.getElementById('contact');" +
-    "div.addEventListener('focusin', (event) => {console.log('Foxused');});"
-    
-    
-    script.async=true;
-    document.body.appendChild(script);*/
-    
-/*    if($('#contact').is(':visible'))
-    {
-      console.log('visible');
-    }*/
-
-  }
+export default class Contact extends Component {  
   render(){
     return (
     	<div className="Contact" 
@@ -41,6 +13,11 @@ export default class Contact extends Component {
                   Email: Dakotapalmer@gmail.com<br/>
                   Phone: 310 987 3228
               </h3>
+          </div>
+          <div id="closingDiv">
+          <h5>
+          This sight was made using React, Flask, and is hosted on AWS EC2<br/>
+          </h5>
           </div>
       </div>
     );

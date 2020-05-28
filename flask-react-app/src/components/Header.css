@@ -1,21 +1,25 @@
 #git {
 	overflow: hidden;
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	border-radius: 50%;
-	margin-top: -6%;
+	margin-top: -3%;
 }
 #linkedin {
 	overflow: hidden;
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	border-radius: 50%;
-	margin-top: -6%;
+	margin-top: -3%;
 }
 #instapic {
 	overflow: hidden;
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	border-radius: 50%;
-	margin-top: -6%;
+	margin-top: -3%;
+}
+
+#homeUrl{
+	font-size: 2vh;
 }

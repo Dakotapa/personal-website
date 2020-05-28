@@ -4,8 +4,13 @@
 	align-items: center;
 	margin-top: 10%;
 	margin-bottom: 30%;
+
 }
 
 .Contact > h1 {
 	text-align: center;
 } 
+
+#closingDiv {
+	margin-top:15%;
+}

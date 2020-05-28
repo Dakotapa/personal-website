@@ -14,8 +14,8 @@ function About() {
             <p>
                 Welcome! My name is Dakota Palmer, a soon to be first generation 
                 Native American computer science graduate from the University of 
-                Southern California. I am also a father of two young boys that have 
-                kept me striving to be the best that I can be.<br/> <br/>
+                Southern California. I am also the father of two awesome little guys that 
+                keep me striving to be the best that I can be.<br/> <br/>
                 My passion is in cyber security and software engineering. My 
                 lifelong goal is to learn as much as I can about the technologies 
                 we interact with on a daily basis while hopefully one day, providing 
