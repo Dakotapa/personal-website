@@ -19,7 +19,7 @@ class ContentNav extends Component {
 	}
 	render() {
 		return (
-	 		<ListGroup defaultActiveKey="#link1">
+	 		<ListGroup id="sideNav" defaultActiveKey="#link1">
 	 			<ListGroup.Item action href="#layout">
 	 				About Me
 	 			</ListGroup.Item>

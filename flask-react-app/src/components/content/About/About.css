@@ -18,3 +18,25 @@ img{
 	margin-right: 10%;
 	width: 60%;
 }
+
+@media only screen and (max-device-width: 480px){
+	.About{
+		display: flex;
+		flex-direction: column;
+		background-color: transparent;
+		align-items: center;
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+	.Description > h1{
+		text-align: center;
+	}
+	.Description {
+		background-color: transparent;
+		width: 90%;
+		text-align: left;
+	}
+
+}

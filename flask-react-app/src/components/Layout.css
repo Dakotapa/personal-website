@@ -1,5 +1,4 @@
 .layout {
-/*	min-height: 100vh;*/
 	display: flex;
 	flex-direction: column;
 	background-color: transparent;
@@ -39,4 +38,16 @@
 
 .footer--hidden {
 	bottom: -55px;
+}
+
+@media only screen and (max-device-width: 480px){
+	.sidebar {
+		position: fixed;
+		transition: top 0.6s;
+		top: 0;
+		margin-top: 15%;
+	}
+	.sidebar--hidden {
+		top: -50vh;
+	}
 }

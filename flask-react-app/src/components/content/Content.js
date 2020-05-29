@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import './Content.css'
-import './Content.scss'
 import About from './About/About.js'
 import Contact from './Contact/Contact.js'
 import Coursework from './Coursework/Coursework.js'

@@ -35,3 +35,44 @@
 	margin-top: 3%;
 	margin-left: 5%;
 }
+
+
+@media only screen and (max-device-width: 480px){
+.education {
+	margin-top: 10%;
+}
+
+.USC {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.USC > img {
+	height: auto;
+	width: 90%;
+}
+
+.USCDescription {
+	margin-left: 6%;
+}
+
+.LAHC {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0%;
+}
+
+.LAHC > img {
+	height: auto;
+	width: 60%;
+	margin-right: 5%;
+}
+
+.LAHCDescription {
+	margin: 0%;
+}
+
+
+}
