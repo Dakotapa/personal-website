@@ -45,7 +45,8 @@
 	}
 
 	.javaProject >img {
-		width: 100%;
+		width: 90%;
+		margin-right: 3%;
 		height: auto;
 	}
 	.projectDescription {

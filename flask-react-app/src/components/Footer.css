@@ -12,14 +12,10 @@
 @media only screen and (max-device-width: 480px){
 	
 	#crImg {
-		width: 17px;
-		height: 16px;
-		border-radius: 50%;
-		margin-top: -3%;
+		visibility: hidden;
 	}
 
 	#footerCrText {
-		font-size: 2.5vh;
-		padding-bottom: 4%;
+		visibility: hidden;
 	}	
 }
