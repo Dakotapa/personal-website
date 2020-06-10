@@ -10,9 +10,7 @@ import Workexp from './Workexp/Workexp.js'
 
 
 export default class Content extends Component {
-
 	ref = React.createRef();
-
 	async componentDidMount() {
 		const observer = new IntersectionObserver (
 			([entry]) => {
@@ -37,28 +35,26 @@ export default class Content extends Component {
 			   showProjects, showContact } = this.props;
 		return (
 		  	<div className= "contentParent"
-		  		ref={this.ref}
-		  	 >
+		  		ref={this.ref}>
 				<div className="page">
-		  		{ showAbout && < About /> }
+		  			{ showAbout && < About /> }
 		  		</div>
 		  		<div className="page">
-		  		{ showWorkexp && < Workexp /> }
+		  			{ showWorkexp && < Workexp /> }
 		  		</div>
 		  		<div className="page">
-		  		{ showEducation && < Education /> }
+		  			{ showEducation && < Education /> }
 		  		</div>
 		  		<div className="page">
-		  		{ showCoursework && < Coursework /> }
+		  			{ showCoursework && < Coursework /> }
 		  		</div>
 		  		<div className="page">
-		  		{ showProjects && < Projects /> }
+		  			{ showProjects && < Projects /> }
 		  		</div>
 		  		<div className="page">		  		
-		  		{ showContact && < Contact /> }
+		  			{ showContact && < Contact /> }
 		  		</div>
-
 		  	</div>
-	);
+		);
 	}
 }

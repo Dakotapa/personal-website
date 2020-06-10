@@ -13,10 +13,10 @@ class ContentNav extends Component {
 	handleChange(e) {
 		this.props.onContentNavChange(e);
 	}
-
 	scrollTo(name){
 		window.location.hash(name);
 	}
+	
 	render() {
 		return (
 	 		<ListGroup id="sideNav" defaultActiveKey="#link1">
@@ -39,10 +39,8 @@ class ContentNav extends Component {
 	 				Contact Me
 	 			</ListGroup.Item>
 	 		</ListGroup>
-	  	
 	  );		
 	}
-  
 }
 
 export default ContentNav;

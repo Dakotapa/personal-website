@@ -26,10 +26,8 @@ export default class Layout extends Component {
 		this.handleComponentChange = this.handleComponentChange.bind(this);
 	}
 
-
 	handleComponentChange(name) {
 	}
-
 
 	componentDidMount() {
 		window.addEventListener("scroll", this.handleScroll);
@@ -58,7 +56,7 @@ export default class Layout extends Component {
 		    <div className={classnames("header", {
 	 			"header--hidden": !this.state.visible 
 	 		})}>
-		     	<Header />
+		     	<Header/>
 			</div>
 			<div className="content">
 			    <Content 
@@ -91,5 +89,4 @@ export default class Layout extends Component {
 	    </div>
 	 	);		
 	}
-  
 }

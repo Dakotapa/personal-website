@@ -7,14 +7,15 @@ function Footer() {
 
   return (
     	<Navbar bg="dark" variant="dark">
-    		<Navbar.Brand id="footerCrText" href=""><img id="crImg" src={ CopyRight }/> 2020 Dakota Palmer</Navbar.Brand>
-    
-          <Nav className="ml-auto">
+    		<Navbar.Brand id="footerCrText" href="">
+    			<img id="crImg" src={ CopyRight }/> 
+    			2020 Dakota Palmer
+    		</Navbar.Brand>
+          	<Nav className="ml-auto">
       			<Nav.Link>
-              
-            </Nav.Link>
+            	</Nav.Link>
       		</Nav>
-      </Navbar>
-  );
+      	</Navbar>
+  	);
 }
 export default Footer;
