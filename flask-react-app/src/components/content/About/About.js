@@ -12,8 +12,8 @@ function About() {
                 About Me 
             </h1>
             <p>
-                Welcome! My name is Dakota Palmer, a soon to be first generation 
-                Native American computer science graduate from the University of 
+                Welcome! My name is Dakota Palmer,a first generation 
+                Native American Computer Science graduate from the University of 
                 Southern California. I am also the father of two awesome little guys that 
                 keep me striving to be the best that I can be.
                 <br/> 
